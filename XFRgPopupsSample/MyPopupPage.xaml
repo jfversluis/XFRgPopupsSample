@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<pages:PopupPage
+    xmlns:pages="http://rotorgames.com"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="XFRgPopupsSample.MyPopupPage"
+    BackgroundClicked="PopupPage_BackgroundClicked"
+    CloseWhenBackgroundIsClicked="False">
+    <StackLayout WidthRequest="200" HeightRequest="200" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="White">
+        <Button Text="Close" Clicked="Button_Clicked" />
+    </StackLayout>
+
+</pages:PopupPage>

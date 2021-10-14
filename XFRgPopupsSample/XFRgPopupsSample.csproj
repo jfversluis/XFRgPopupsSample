@@ -13,5 +13,9 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2125" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+    <PackageReference Include="Rg.Plugins.Popup" Version="2.0.0.13" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Rg.Plugins.Popup" />
   </ItemGroup>
 </Project>
